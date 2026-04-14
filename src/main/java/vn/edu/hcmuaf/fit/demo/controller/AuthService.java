@@ -3,7 +3,7 @@ package vn.edu.hcmuaf.fit.demo.controller;
 
 import vn.edu.hcmuaf.fit.demo.dao.AuthDao;
 import vn.edu.hcmuaf.fit.demo.model.User;
-import vn.edu.hcmuaf.fit.demo.util.PasswordUtil;
+import vn.edu.hcmuaf.fit.demo.utils.PasswordUtil;
 public class AuthService {
     AuthDao authDao = new AuthDao();
     public User checkLogin(String username, String password) {
