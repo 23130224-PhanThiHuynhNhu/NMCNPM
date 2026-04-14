@@ -1,6 +1,10 @@
 language: java
 jdk:
-  - openjdk17
+  - openjdk21
+install: true  
+
+before_install:
+  - chmod +x mvnw
 
 script:
-  - mvn clean install
+  - ./mvnw clean install
