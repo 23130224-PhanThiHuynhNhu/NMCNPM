@@ -6,10 +6,10 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
-
+import vn.edu.hcmuaf.fit.demo.dao.AuthDao;
+import vn.edu.hcmuaf.fit.demo.model.User;
 import java.io.IOException;
 
-public class LoginServlet {
     @WebServlet("/login")
     public class LoginServlet extends HttpServlet {
         @Override

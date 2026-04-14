@@ -5,7 +5,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
-
+import vn.edu.hcmuaf.fit.demo.model.User;
+import vn.edu.hcmuaf.fit.demo.utils.DBConnection;
 public class AuthDao extends BaseDao {
 
     public User getUserByUserName(String userName) {
