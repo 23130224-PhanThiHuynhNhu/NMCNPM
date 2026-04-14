@@ -3,4 +3,4 @@ jdk:
   - openjdk17
 
 script:
-  - mvn clean install
+  - ./mvnw clean install
