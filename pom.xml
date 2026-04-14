@@ -56,7 +56,15 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>org.jdbi</groupId>
+            <artifactId>jdbi3-core</artifactId>
+            <version>3.43.0</version>
+        </dependency>
     </dependencies>
+
+
 
     <build>
         <plugins>

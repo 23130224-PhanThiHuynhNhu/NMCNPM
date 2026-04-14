@@ -1,4 +1,4 @@
-
+package vn.edu.hcmuaf.fit.demo.model;
 import java.time.LocalDateTime;
 
 public class Brand {
